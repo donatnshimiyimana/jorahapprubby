@@ -5,6 +5,7 @@ class CreateMovies < ActiveRecord::Migration[5.1]
       t.string :category
       t.string :release_year
       t.string :price
+      
 
       t.timestamps
     end
